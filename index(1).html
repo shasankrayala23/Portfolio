@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shasank Rayala | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="particles-js"></div>
+
+<div class="hamburger" onclick="toggleMenu()">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<div class="theme-toggle" onclick="toggleTheme()">Theme</div>
+
+<nav>
+  <a href="#summary">Summary</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div id="mobileMenu" class="mobile-menu" style="display:none;"></div>
+
+<div class="hero fade-up">
+  <img src="userphoto.jpg" alt="Profile Picture" />
+  <h1>Shasank Rayala</h1>
+  <p>Java Full Stack Developer | Spring Boot | ReactJS | AWS</p>
+  <a class="btn" href="resume.pdf" download>Download Resume</a>
+</div>
+
+<section id="summary" class="fade-up">
+  <h2>Professional Summary</h2>
+  <p class="center-text">
+    Experienced Java Full Stack Developer with 8+ years of expertise building scalable microservices,
+    full‑stack applications, and cloud‑native enterprise systems.
+  </p>
+</section>
+
+<section id="skills" class="fade-up">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-box">Java</div>
+    <div class="skill-box">Spring Boot & Security</div>
+    <div class="skill-box">ReactJS</div>
+    <div class="skill-box">AWS Cloud</div>
+    <div class="skill-box">Kafka</div>
+    <div class="skill-box">Docker</div>
+    <div class="skill-box">PostgreSQL</div>
+    <div class="skill-box">JUnit</div>
+  </div>
+</section>
+
+<section id="projects" class="fade-up">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card"><h3>Banking Dashboard</h3><p>Microservices + ReactJS real‑time dashboard.</p></div>
+    <div class="project-card"><h3>Claim Automation</h3><p>Kafka + Spring Boot automation flow.</p></div>
+    <div class="project-card"><h3>E‑Commerce API</h3><p>Scalable retail API suite.</p></div>
+  </div>
+</section>
+
+<section id="experience" class="fade-up">
+  <h2>Professional Experience</h2>
+  <div class="job"><h3>BMO Harris Bank – Full Stack Developer</h3></div>
+  <div class="job"><h3>Delta Dental – Full Stack Developer</h3></div>
+  <div class="job"><h3>American Eagle – Software Developer</h3></div>
+  <div class="job"><h3>IPrism Technologies – Java Developer</h3></div>
+</section>
+
+<section id="education" class="fade-up">
+  <h2>Education</h2>
+  <p class="center-text">
+    Master's – Southern Arkansas University<br>
+    Bachelor's – VELTECH University
+  </p>
+</section>
+
+<section id="contact" class="fade-up">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Message"></textarea>
+    <button>Send</button>
+  </form>
+</section>
+
+<footer>© 2025 Shasank Rayala</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS.load('particles-js','https://cdn.jsdelivr.net/gh/VincentGarreau/particles.js/particles.json');
+</script>
+
+</body>
+</html>

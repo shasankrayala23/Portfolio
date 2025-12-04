@@ -165,12 +165,20 @@
 
 <section id="contact" class="fade-up">
   <h2>Contact Me</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required />
-    <input type="email" placeholder="Your Email" required />
-    <textarea rows="5" placeholder="Message"></textarea>
-    <button>Send</button>
-  </form>
+  <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="5" placeholder="Message"></textarea>
+
+  <!-- Prevent spam -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirect after submit -->
+  <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+
+  <button type="submit">Send</button>
+</form>
+
 </section>
 
 <footer>
